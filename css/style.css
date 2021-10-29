@@ -14,7 +14,8 @@
 /* 3. Header
 /* 4. How Play
 /* 5. Objetivos
-/* 6. Footer
+/* 6. Game
+/* 7. Footer
 
 
 /**********************************/
@@ -31,6 +32,7 @@
     --clr-white: #f5f5f5;
     --bg-clr-on: #f0f0f0;
     --bg-clr-tw: #fffaee;
+    --scroll--clr: #ffbc6f;
 }
 
 
@@ -80,6 +82,17 @@ img,
     max-width: 100%;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+    background: var(--scroll--clr)
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--clr-yellow-dark);
+    border-radius: 2px;
+    border: 1px solid #fff;
+}
+
 
 /**********************************/
 
@@ -107,6 +120,7 @@ img,
 .nav__list {
     display: flex;
     flex-wrap: wrap;
+    list-style-type: none;
 }
 
 .nav__link {
@@ -237,7 +251,32 @@ img,
 /**********************************/
 
 
-/* 6. Footer
+/* 6. Game
+/**********************************/
+
+.game__sect {
+    background: var(--bg-clr-tw);
+    height: 96vh;
+    display: flex;
+}
+
+.game__screen {
+    border: solid 3px var(--clr-yellow-dark);
+    min-width: 240px;
+    min-height: 320px;
+    max-width: 1280px;
+    max-height: 720px;
+    margin: 50px auto;
+    background-image: url('https://www.mobygames.com/images/shots/l/929496-omni-play-horse-racing-amiga-screenshot-horses-get-ready.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/**********************************/
+
+
+/* 7. Footer
 /**********************************/
 
 .footer {
