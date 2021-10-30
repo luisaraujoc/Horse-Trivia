@@ -267,7 +267,7 @@ img,
     max-width: 1280px;
     max-height: 720px;
     margin: 50px auto;
-    background-image: url('https://www.mobygames.com/images/shots/l/929496-omni-play-horse-racing-amiga-screenshot-horses-get-ready.png');
+    background-image: url('/img/pista.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
