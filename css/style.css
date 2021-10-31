@@ -258,13 +258,15 @@ img,
     background: var(--bg-clr-tw);
     height: 96vh;
     display: flex;
+    flex-direction: column;
 }
 
 .game__screen {
     border: solid 3px var(--clr-yellow-dark);
+    border-radius: 5px;
     width: 1280px;
     height: 720px;
-    margin: 50px auto;
+    margin: 10px auto;
     background-image: url('/img/pista.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -277,6 +279,21 @@ img,
     background-image: url('/img/cerca.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.question__block {
+    background-color: rgb(17, 21, 39);
+    width: 1280px;
+    height: 250px;
+    margin: 10px auto;
+    border: solid 2px #f8a100;
+    border-radius: 3px;
+    color: var(--bg-clr-on);
+    text-align: center;
+}
+
+.question__block p {
+    margin: 30px auto;
 }
 
 
