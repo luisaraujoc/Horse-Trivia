@@ -272,7 +272,8 @@ img,
 
 .barreira {
     width: 1274px;
-    height: 717px;
+    height: 717.5px;
+    z-index: 999;
     background-image: url('/img/cerca.png');
     background-repeat: no-repeat;
     background-size: cover;
