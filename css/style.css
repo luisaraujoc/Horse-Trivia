@@ -284,11 +284,14 @@ img,
 .cavalo__test {
     position: absolute;
     background-color: #ffd666;
-    margin-top: 160px;
+    margin-top: 165px;
     z-index: 1;
+    width: 160px;
+    height: 140px;
 }
 
-.cavalo__test2 {
+
+/* .cavalo__test2 {
     position: absolute;
     background-color: #0b8ef9;
     margin-top: 260px;
@@ -300,7 +303,7 @@ img,
     background-color: #f90b0b;
     margin-top: 360px;
     z-index: 3;
-}
+} */
 
 
 /**********************************/
