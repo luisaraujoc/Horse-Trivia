@@ -266,7 +266,7 @@ img,
     border-radius: 5px;
     width: 1280px;
     height: 720px;
-    margin: 10px auto;
+    margin: 90px auto;
     background-image: url('/img/pista.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -281,19 +281,25 @@ img,
     background-size: cover;
 }
 
-.question__block {
-    background-color: rgb(17, 21, 39);
-    width: 1280px;
-    height: 250px;
-    margin: 10px auto;
-    border: solid 2px #f8a100;
-    border-radius: 3px;
-    color: var(--bg-clr-on);
-    text-align: center;
+.cavalo__test {
+    position: absolute;
+    background-color: #ffd666;
+    margin-top: 160px;
+    z-index: 1;
 }
 
-.question__block p {
-    margin: 30px auto;
+.cavalo__test2 {
+    position: absolute;
+    background-color: #0b8ef9;
+    margin-top: 260px;
+    z-index: 2;
+}
+
+.cavalo__test3 {
+    position: absolute;
+    background-color: #f90b0b;
+    margin-top: 360px;
+    z-index: 3;
 }
 
 
