@@ -47,7 +47,9 @@
             <div class="barreira">
             </div>
             <!-- Barreira -->
-            <input type="submit" class="btn nes-btn is-primary" value="Começar">
+            <form action="functions.php" method="post">
+                <input type="submit" class="btn nes-btn is-primary" value="Começar">
+            </form>
         </div>
         <!-- Game Screen -->
     </section>

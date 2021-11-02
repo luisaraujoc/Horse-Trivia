@@ -1,0 +1,20 @@
+#elemento_pai {
+    width: auto;
+    height: auto;
+    background-color: gray;
+    position: relative;
+}
+
+.posrelativa {
+    position: relative;
+    width: 100px;
+    height: 40px;
+}
+
+.posabsoluta {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    width: 150px;
+    height: auto;
+}
