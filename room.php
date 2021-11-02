@@ -44,11 +44,12 @@
         <div class="game__screen">
             <canvas class="cavalo__test"></canvas>
             <!-- canvas teste -->
-            <div class="barreira">
-            </div>
+
+            <div class="barreira"></div>
             <!-- Barreira -->
-            <form action="functions.php" method="post">
-                <input type="submit" class="btn nes-btn is-primary" value="Começar">
+            
+            <form action="" method="post">
+                <input type="submit" class="btn nes-btn is-primary" name="btn_start" value="Começar">
             </form>
         </div>
         <!-- Game Screen -->
@@ -71,11 +72,6 @@
             </a>
         </div>
     </footer>
-    <script src="js/move.js"></script>
 </body>
 
 </html>
-
-<!-- <p class="nes-balloon from-left nes-pointer">
-  This is not a clickable element, but it's an area of the pointer.
-</p> -->
