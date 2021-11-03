@@ -1,3 +1,7 @@
+<?php 
+include 'sys/conx.php';
+include 'sys/dll.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -7,7 +11,7 @@
     <!-- LINKs -->
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
-    <link rel="stylesheet" href="node_modules/nes.css/css/nes.css">
+    <!-- <link rel="stylesheet" href="node_modules/nes.css/css/nes.css"> -->
     <link rel="stylesheet" href="css/style.css">
 
     <title>Horse Trivia</title>
@@ -42,12 +46,28 @@
     <!-- Content and Canva -->
     <section class="game__sect">
         <div class="game__screen">
-            <canvas class="cavalo__test"></canvas>
+            <canvas class="cavalo__test">
+            </canvas>
             <!-- canvas teste -->
-            <div class="barreira">
+            <div class="">
+                <div class="pergunta nes-balloon from-left">
+                <?php 
+                    $i = 0;
+                    $p = selec_perg($server, $user, $password, $db);
+                    $opc = selec_opc($server, $user, $password, $db);
+                    echo "<p>".$p['Pergunta'][$i]."</p>";
+                ?>               
+                </div>
+                <div class="resposta nes-ballon from-right">
+                
+                </div>
             </div>
+            <div class="barreira"></div>
             <!-- Barreira -->
-            <button class="btn nes-btn is-primary">Começar</button>
+            
+            <form action="" method="post">
+                <input type="submit" class="btn nes-btn is-primary" name="btn_start" value="Começar">
+            </form>
         </div>
         <!-- Game Screen -->
     </section>
@@ -69,6 +89,12 @@
             </a>
         </div>
     </footer>
+
+
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/query-3.5.0.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
