@@ -1,6 +1,7 @@
 <?php 
 include 'sys/conx.php';
-include 'sys/dll.php';?>
+include 'sys/dll.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -12,6 +13,7 @@ include 'sys/dll.php';?>
     <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
     <!-- <link rel="stylesheet" href="node_modules/nes.css/css/nes.css"> -->
     <link rel="stylesheet" href="css/style.css">
+
     <title>Horse Trivia</title>
 </head>
 
@@ -44,7 +46,9 @@ include 'sys/dll.php';?>
     <!-- Content and Canva -->
     <section class="game__sect">
         <div class="game__screen">
-            <canvas class="cavalo__test"></canvas>
+            <canvas class="cavalo__test">
+                <img src="img/horse/Horse Idle Black.png" alt="">
+            </canvas>
             <!-- canvas teste -->
             <div class="hide">
                 <div class="pergunta nes-balloon from-left">
