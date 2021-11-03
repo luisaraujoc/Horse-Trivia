@@ -43,16 +43,17 @@
                 </div>
                 
                 
-                <div>
+                <div class="nes-select">
                     <label for="turma">Turma</label>
-                    <div class="nes-select">
                         <select id="turma" name="turma" placeholder="Selecione..." class='nes-select default_select'>
-                    </div>
+                    
+                </div>
+                <br>
+                <div>
+                    <input class="nes-btn is-success" name="btn_register" type="submit" value="Registrar">
                 </div>
 
-                <div class="btn-div">
-                   
-                </div>
+                
                     
             </form>
 
