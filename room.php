@@ -1,3 +1,6 @@
+<?php 
+include 'sys/conx.php';
+include 'sys/dll.php';?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -9,7 +12,6 @@
     <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
     <!-- <link rel="stylesheet" href="node_modules/nes.css/css/nes.css"> -->
     <link rel="stylesheet" href="css/style.css">
-
     <title>Horse Trivia</title>
 </head>
 
@@ -44,7 +46,11 @@
         <div class="game__screen">
             <canvas class="cavalo__test"></canvas>
             <!-- canvas teste -->
+            <div class="hide">
+                <div class="pergunta nes-balloon from-left">
 
+                </div>
+            </div>
             <div class="barreira"></div>
             <!-- Barreira -->
             
@@ -72,6 +78,12 @@
             </a>
         </div>
     </footer>
+
+
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/query-3.5.0.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
