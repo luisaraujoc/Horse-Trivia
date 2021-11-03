@@ -47,12 +47,23 @@ include 'sys/dll.php';
     <section class="game__sect">
         <div class="game__screen">
             <canvas class="cavalo__test">
-                <img src="img/horse/Horse Idle Black.png" alt="">
             </canvas>
             <!-- canvas teste -->
-            <div class="hide">
+            <div class="">
                 <div class="pergunta nes-balloon from-left">
-
+                <?php 
+                    $i = 0;
+                    $p = selec_perg($server, $user, $password, $db);
+                    $opc = selec_opc($server, $user, $password, $db);
+                    echo "<p>".$p['Pergunta'][$i]."</p>";
+                ?>               
+                </div>
+                <div class="resposta nes-ballon from-right">
+                <?php
+                    echo "<input type='radio' class'nes-radio' name='a'>".$opc['alternativa'][$i]."</input>";
+                    
+                    
+                ?>
                 </div>
             </div>
             <div class="barreira"></div>
