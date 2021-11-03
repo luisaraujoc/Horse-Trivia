@@ -59,11 +59,7 @@ include 'sys/dll.php';
                 ?>               
                 </div>
                 <div class="resposta nes-ballon from-right">
-                <?php
-                    echo "<input type='radio' class'nes-radio' name='a'>".$opc['alternativa'][$i]."</input>";
-                    
-                    
-                ?>
+                
                 </div>
             </div>
             <div class="barreira"></div>

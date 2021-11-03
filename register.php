@@ -1,12 +1,4 @@
-<?php
 
-
-include 'sys/dll.php';
-include 'sys/conx.php';
-
-
-
-?>
     <!DOCTYPE html>
     <html lang="en">
 
@@ -28,7 +20,7 @@ include 'sys/conx.php';
                 <h2>Sign In</h2>
             </header>
 
-            <form action="resgister.php" class="login__form" method="POST">
+            <form action="" class="login__form" method="POST">
 
                 <div>
                     <label for="email">Email</label>
@@ -59,16 +51,9 @@ include 'sys/conx.php';
                 </div>
 
                 <div class="btn-div">
-                    <?php
-                    echo"<input class='nes-btn is-success' name='btn-register' type='submit' value='Resgistrar'>"
-                    ?>
+                   
                 </div>
-                    <?php
                     
-
-
-
-                    ?>
             </form>
 
         </div>
