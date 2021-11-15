@@ -1,7 +1,3 @@
-<?php 
-include 'sys/conx.php';
-include 'sys/dll.php';
-?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -49,22 +45,17 @@ include 'sys/dll.php';
             <canvas class="cavalo__test">
             </canvas>
             <!-- canvas teste -->
-            <div class="">
+            <div class="hide">
                 <div class="pergunta nes-balloon from-left">
-                <?php 
-                    $i = 0;
-                    $p = selec_perg($server, $user, $password, $db);
-                    $opc = selec_opc($server, $user, $password, $db);
-                    echo "<p>".$p['Pergunta'][$i]."</p>";
-                ?>               
+
                 </div>
                 <div class="resposta nes-ballon from-right">
-                
+
                 </div>
             </div>
             <div class="barreira"></div>
             <!-- Barreira -->
-            
+
             <form action="" method="post">
                 <input type="submit" class="btn nes-btn is-primary" name="btn_start" value="Começar">
             </form>
