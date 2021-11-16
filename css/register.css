@@ -90,7 +90,7 @@ section .container .user .formBx form input {
 }
 
 section .container .user .formBx form input[type='submit'] {
-    max-width: 100px;
+    max-width: 110px;
     background: #677eff;
     color: #fff;
     cursor: pointer;
